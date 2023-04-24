@@ -1,0 +1,399 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: #252C2F;
+    color: #ffffff;
+}
+
+.tx-y {
+    color: #FFB742;
+}
+
+.tx-g {
+    color: #878787;
+}
+
+.tx-w {
+    color: #ffffff;
+}
+
+.bg-y {
+    background-color: #FFB742;
+}
+
+.w-100 { width: 100%; }
+
+.h-100 { height: 6.25rem; }
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 1.25rem;
+    font-weight: bold;
+}
+
+nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav a:active {
+    color: #FFB742;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #252C2F;
+}
+
+.content-nav {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3.125rem;
+    /* border-bottom: 1px solid #FFB742; */
+}
+
+nav .logo {
+    color: #FFB742;
+}
+
+.btn-hire {
+    background-color: #FFB742;
+    padding: .75rem 1.25rem;
+    border: none;
+    border-radius: 1.25rem;
+    font-weight: bold;
+}
+
+main {
+    padding: 0 100px;
+}
+
+header {
+    min-height: 28.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 6.25rem;
+    /* background-color: cornflowerblue; */
+}
+
+header h3 span {
+    color: #FFB742;
+}
+
+
+header img {
+    margin-top: 1.875rem;
+    border-radius: 50%;
+}
+
+header .info-container {
+    display: flex;
+    flex-direction: row;
+}
+
+header .card {
+    display: flex;
+    align-items: center;
+    background-color: #424344;
+    min-width: 18.75rem;
+    margin: 4.375rem 1.875rem;
+    border-radius: .625rem;
+    justify-content: space-around;
+}
+
+.card .card-icon {
+    margin: 0 20px;
+    width: 2.875rem;
+    height: 2.875rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.card .data .top {
+    color: #FFB742;
+    font-weight: bold;
+}
+
+.card .data {
+    padding: .625rem;
+}
+
+.card i {
+    margin: 0 .625rem;
+}
+
+.card p {
+    line-height: 0.3;
+}
+
+
+.about-me-section {
+    display: flex;
+    min-height: 25rem;
+    margin: 1.875rem 1.5625rem;
+}
+
+.img-about-me {
+    min-width: 25rem;
+    min-height: 25rem;
+    background-color: #FFB742;
+    margin: 0 6.25rem ;
+    border-radius: 50%;
+}
+
+.about-me-description {
+    padding: 0 1.875rem;
+}
+
+.badge {
+    display: block;
+}
+
+
+.badge p{
+    background-color: #424344;
+    display: inline-block;
+    padding: .3125rem 1.25rem;
+    border-radius: 3.125rem;
+    margin: 0;
+    color: #FFB742;
+}
+
+.about-me-description h1 {
+    line-height: 1;
+}
+
+.about-me-section .btn-hire, .skills .btn-hire {
+    margin-top: 3.125rem;
+}
+
+.skills {
+    padding: 5rem 6.25rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-description {
+    margin: 0 1.25rem;
+    min-width: 25rem;
+    width: 31.25rem;
+}
+
+.skills-cards {
+    padding: 1.875rem 0;
+    min-width: 28.125rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-cards-top {
+    display: flex;
+    justify-content: center;
+}
+
+.skills-cards-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-tech {
+    height: 6.25rem;
+    width: 6.25rem;
+    background-color: #424344;
+    border-radius: .625rem;
+    margin: .3125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-tech .logo {
+    background-color: antiquewhite;
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+}
+
+.my-works {
+    display: flex;
+    flex-direction: column;
+    min-height: 31.25rem;
+    align-items: center;
+}
+
+.my-works ul {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.my-works ul li {
+    list-style: none;
+}
+
+.gallery {
+    margin: 30px 100px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.masonry {
+    columns: 4;
+    column-gap: .625rem;
+}
+
+.masonry .mItem {
+    margin-bottom: .625rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 6.25rem;
+}
+
+.testimonial-cards {
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial .card {
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+    padding: 1.875rem 1.25rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial-cards .card i {
+    color: #FFB742;
+    margin: 0 2px;
+    font-size: small;
+}
+
+.testimonial-cards p {
+    color: #252C2F;
+    line-height: 1.3;
+}
+
+
+.card-photo .logo {
+    background-color: rgb(155, 110, 50);
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+}
+
+.start-project {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    height: 120px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.start-project p {
+    text-align: center;
+}
+
+.btn-lets {
+    background-color: #FFB742;
+    padding: 12px 30px;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    min-height: 250px;
+}
+
+footer ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+footer li {
+    line-height: 2;
+}
+
+footer .col-1 p {
+}
+
+.col-1 .logo {
+    margin: auto;
+    background-color: #FFB742;
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-2 input {
+    all: unset;
+    width: 250px;
+    background-color: #424344;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 15px;
+}
+
+.contact-me {
+    display: flex;
+    align-items: center;
+    z-index: 0;
+}
+
+.contact-me .telegram{
+    z-index: 10;
+    margin-left: -15px;
+    background-color: #FFB742;
+    width: 3.75rem;
+    height: 3.75rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+  
+
